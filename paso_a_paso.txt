@@ -1,0 +1,57 @@
+================================================================================
+                    RESUMEN PASO A PASO DEL PROYECTO EN GIT Y GITHUB
+================================================================================
+
+1. APERTURA Y REVISIÓN DEL ENTORNO GIT
+   - Se abrió la terminal de Git dentro de la carpeta del proyecto local:
+     "c:\Users\Miguel\Desktop\Github1".
+   - Se verificó el estado inicial del árbol de trabajo con 'git status' y el
+     historial previo con 'git log'.
+
+2. UBICACIÓN Y VINCULACIÓN DEL REPOSITORIO REMOTO
+   - Se localizó el repositorio remoto en GitHub:
+     https://github.com/miguelproject425/GitHub.git
+   - Se verificaron los remotos configurados con 'git remote -v'.
+
+3. AUTENTICACIÓN SEGURA MEDIANTE TOKEN (PAT)
+   - Se generó y configuró un Personal Access Token (PAT) de GitHub con permisos 'repo'.
+   - Se vinculó el token a la URL del remoto para permitir operaciones de push directas
+     sin bloqueos interactivos.
+
+4. PRIMER PUSH A LA RAMA PRINCIPAL
+   - Se realizó la primera subida ('git push -u origin main') sincronizando la rama
+     'main' local con el repositorio en la nube de GitHub.
+
+5. CREACIÓN Y DESARROLLO DE LA TIENDA E-COMMERCE (NEXUS TECH)
+   - index.html: Estructura semántica, barra de navegación, buscador en tiempo real,
+     banner hero, pestañas de categorías, selector de ordenamiento, panel deslizable
+     del carrito (drawer), modales de vista rápida y pasarela de checkout.
+   - style.css: Sistema de diseño moderno con modo oscuro (Dark Mode), efectos de
+     glassmorphism, luces de fondo de neón, tarjetas interactivas y diseño 100% responsive.
+   - app.js: Lógica interactiva completa:
+       * Catálogo de productos con imágenes y valoraciones.
+       * Filtro instantáneo por categorías y por barra de búsqueda.
+       * Carrito de compras con persistencia en localStorage (+/- cantidad, eliminar).
+       * Sistema de cupones de descuento ('DESCUENTO10' y 'PROMO20').
+       * Proceso de checkout con selección de método de pago y generación de factura.
+       * Notificaciones flotantes (Toasts) y lista de favoritos (Wishlist).
+   - README.md: Documentación detallada del proyecto con instrucciones de uso.
+
+6. COMMIT Y PUSH DE LA APLICACIÓN COMPLETA
+   - Se prepararon los archivos ('git add .').
+   - Se creó el commit ('git commit -m "Create full Nexus Tech e-commerce store..."').
+   - Se enviaron todos los archivos a GitHub ('git push origin main').
+
+7. CREACIÓN Y PUBLICACIÓN DE MÚLTIPLES RAMAS (GIT FLOW)
+   - Se crearon 4 ramas especializadas y se publicaron en GitHub:
+       * 'develop': Rama de desarrollo continuo.
+       * 'feature/payment-gateways': Rama para nuevas pasarelas de pago.
+       * 'feature/dark-mode-enhancements': Rama para mejoras visuales.
+       * 'hotfix/cart-optimization': Rama para correcciones rápidas.
+   - Se verificó que todas las ramas locales y remotas quedaran sincronizadas
+     ('git branch -a').
+
+================================================================================
+Estado actual: Proyecto completado, probado y 100% sincronizado en GitHub.
+Repositorio: https://github.com/miguelproject425/GitHub
+================================================================================
